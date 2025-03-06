@@ -1,4 +1,3 @@
-Here's a formatted version of your GitHub README file:
 
 AI Chat Bot
 
