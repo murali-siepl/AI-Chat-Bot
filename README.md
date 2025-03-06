@@ -21,4 +21,5 @@ Deployment
 Follow the steps above to deploy the API and UI.
 
 Contributing
+
 Contributions are welcome! Please submit a pull request with your changes.
