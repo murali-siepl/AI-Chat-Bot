@@ -1,16 +1,26 @@
-# AI-Chat-Bot
-git clone <repo>
-cd AI-Chat-Bot 
-API:
-  cd API 
-  rename env.example to env 
-  -- update file with correct vales
-  pip install -r requirements.txt
-  
-  run:  uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-UI:
-   cd UI
-   npm install
-   src/util/config - check the URL
-   npm run dev - local env.
-   npm run build - to host.
+Here's a formatted version of your GitHub README file:
+
+AI Chat Bot
+
+Getting Started
+API Setup
+1. Clone the repository: git clone <repository-url>
+2. Change into the API directory: cd AI-Chat-Bot/API
+3. Rename the environment file: rename env.example env
+4. Update the environment file with correct values
+5. Install dependencies: pip install -r requirements.txt
+6. Run the API: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+UI Setup
+1. Change into the UI directory: cd AI-Chat-Bot/UI
+2. Install dependencies: npm install
+3. Update the configuration file: src/util/config
+4. Check the URL
+5. Run the UI in local environment: npm run dev
+6. Build the UI for hosting: npm run build
+
+Deployment
+Follow the steps above to deploy the API and UI.
+
+Contributing
+Contributions are welcome! Please submit a pull request with your changes.
